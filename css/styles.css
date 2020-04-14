@@ -13,6 +13,7 @@
 	text-align: center;
 	box-shadow: 0px 30px 30px 8px #ddd;
 	border-radius: 10px 0px;
+	height: 350px;
 
 }
 .role{
@@ -42,15 +43,41 @@
 .socialicon{
 	width: 10%;
 }
-
-@media only screen and (min-width: 320px) and (max-width: 480px){
-	.child{
-	width: 45%;
-	border: 1px ridge blue;
+ul li{
+	font-size: 18px;
+ul{
+	list-style-type: circle;
+}
+}
+table{
+	width: 100%;
+}
+thead{
+	background: #000;
+	color: #fff;
 	padding: 1%;
-	margin: 1%;
-	text-align: center;
-	box-shadow: 0px 8px 8px -8px #ddd;*/
-	border-radius: 10px 0px;
+}
+tbody tr:nth-child(odd){
+	background: #ddd;
 
+}
+.child2 span{
+	 border-radius: 10px;
+	 border:1px solid #5d6d7e;
+	 border-color: #ddd;
+	 padding: 1%;
+	 margin: 1%;
+	 box-shadow: 0px 8px 8px -8px #000;
+
+
+}
+.table-responsive{
+	overflow-x: auto;
+}
+.child2{
+	width: 60%;
+	margin: 1%;
+	padding: 1%;
+	border: 1px solid #ddd;
+	box-shadow:0px 8px 8px -8px #000;
 }
